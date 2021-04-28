@@ -16,4 +16,24 @@
   left: 25%;
 }
 
+button {
+  margin: 0.5rem;
+}
+
+#generate {
+  position: relative;
+  top: -3rem;
+  left: -19rem;
+  transform: scale(1.5);
+}
+
+#password,
+#copy {
+  position: relative;
+  bottom: -5rem;
+  right: -17rem;
+  text-align: center;
+  transform: scale(1.5);
+}
+
 /*# sourceMappingURL=main.css.map */
