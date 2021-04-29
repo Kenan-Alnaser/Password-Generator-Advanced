@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+body {
+  background-image: url(../img/depositphotos_148207941-stock-video-software-development-concept.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #random-password {
   display: flex;
   justify-content: center;
@@ -14,6 +20,12 @@
   position: absolute;
   top: 25%;
   left: 25%;
+  background: black;
+  background: linear-gradient(90deg, black 15%, #008176 84%, #d99c00 100%);
+  color: white;
+  border: white 1px solid;
+  font-size: 1.5rem;
+  border-radius: 5px;
 }
 
 button {
@@ -23,17 +35,23 @@ button {
 #generate {
   position: relative;
   top: -3rem;
-  left: -19rem;
+  left: -35rem;
   transform: scale(1.5);
 }
 
 #password,
 #copy {
   position: relative;
-  bottom: -5rem;
-  right: -17rem;
+  bottom: -3rem;
+  right: -35rem;
   text-align: center;
   transform: scale(1.5);
+}
+
+button {
+  background-color: white;
+  border: 1px black dotted;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
